@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Toyota Corolla",
+        "description": "El Toyota Corolla es un automóvil compacto que ha sido producido por la compañía japonesa Toyota desde 1966.",
+        "price": 25000,
+        "thumbnail": "https://cdn.deagenciapa.com/wp-content/uploads/2020/06/Corolla-XRS-deagenciapa.com-04.jpg",
+        "code": "1",
+        "stock": 10
+    },
+    {
+        "title": "Honda Civic",
+        "description": "El Honda Civic es un automóvil compacto fabricado por Honda. Es conocido por su fiabilidad y eficiencia.",
+        "price": 23000,
+        "thumbnail": "https://collectingcars.imgix.net/008374/16-ww-10.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85",
+        "code": "2",
+        "stock": 15
+    },
+    {
+        "title": "Ford Mustang",
+        "description": "El Ford Mustang es un icónico automóvil deportivo de los Estados Unidos, conocido por su potencia y estilo.",
+        "price": 35000,
+        "thumbnail": "https://www.autobild.es/sites/autobild.es/public/dc/fotos/Ford_Mustanch_Mach_1_01_0.jpg",
+        "code": "3",
+        "stock": 5
+    },
+    {
+        "title": "Chevrolet Camaro",
+        "description": "El Chevrolet Camaro es otro famoso automóvil deportivo estadounidense, apreciado por su diseño distintivo.",
+        "price": 32000,
+        "thumbnail": "https://www.cerokm.com/wp-content/uploads/2021/09/2022_chevrolet_camaro_coupe_2ss_fq_oem_1_1600.jpg",
+        "code": "4",
+        "stock": 8
+    },
+    {
+        "title": "Nissan Sentra",
+        "description": "El Nissan Sentra es un vehículo compacto que ofrece comodidad y eficiencia en la conducción diaria.",
+        "price": 21000,
+        "thumbnail": "https://www.rutamotor.com/wp-content/uploads/2020/07/Nissan-Sentra-2020-Rutamotor-9-scaled.jpg",
+        "code": "5",
+        "stock": 12
+    },
+    {
+        "title": "Volkswagen Golf",
+        "description": "El Volkswagen Golf es un hatchback compacto conocido por su experiencia de conducción.",
+        "price": 24000,
+        "thumbnail": "https://images.holley.com/01-2022-vw-golf-r.jpg",
+        "code": "6",
+        "stock": 9
+    }
+]

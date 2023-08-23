@@ -1,0 +1,211 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 0.5rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos específicos para el index */
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.welcome-text {
+    flex: 1;
+    padding: 1rem;
+}
+
+.car-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+/* Estilos específicos para el formulario de contacto */
+
+.contact-form {
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact-form h2 {
+    margin-bottom: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 200px;
+    resize: none;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Estilos específicos para las tarjetas de producto */
+.product-card {
+    width: calc(33.33% - 1rem);
+    /* 3 productos en una línea con margen */
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    /* La imagen ocupa todo el ancho de la tarjeta */
+    height: 600px;
+    /* Altura fija para todas las imágenes */
+    object-fit: cover;
+    /* La imagen se ajusta manteniendo su proporción y cubriendo el espacio */
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.product-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos del botón "Agregar Producto" */
+.add-button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el formulario de agregar producto */
+.add-product-form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+
+.add-product-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="number"],
+.add-product-form input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.add-product-form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add-product-form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* Media query para productos en pantallas pequeñas */
+@media (max-width: 768px) {
+    .product-card {
+        width: calc(50% - 1rem);
+        /* 2 productos en una línea con margen en pantallas pequeñas */
+    }
+}
